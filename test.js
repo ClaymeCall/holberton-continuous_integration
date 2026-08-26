@@ -1,6 +1,6 @@
 // Simple test file - change shouldPass to test pass/fail behavior
 // Set to true to pass, false to fail
-const shouldPass = true;
+const shouldPass = false;
 
 if (!shouldPass) {
   console.error("Test failed: shouldPass is false");
