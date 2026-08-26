@@ -10,3 +10,8 @@ test('App component has main element', () => {
   const { getByRole } = render(App);
   expect(getByRole('main')).toBeInTheDocument();
 });
+
+test('toggle test - change this to test pass/fail', () => {
+  const shouldPass = true;
+  expect(shouldPass).toBe(true);
+});
