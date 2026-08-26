@@ -1,0 +1,17 @@
+name: Test-Across-Versions
+run-name: ${{github.actor}} triggered multi-runtime tests
+on: [push]
+jobs:
+  Multi-Runtime-Matrix:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [23, 24, 25]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
