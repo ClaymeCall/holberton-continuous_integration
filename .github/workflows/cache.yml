@@ -1,0 +1,17 @@
+name: Cache-Test
+run-name: ${{github.actor}} triggered cache test
+on:
+  push:
+    branches: [cache]
+jobs:
+  Test-With-Cache:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
+      - run: npm test
