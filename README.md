@@ -17,4 +17,6 @@ This projects aims to practice using workflows and GitHub Actions.
 
 ## Cache demonstration workflow
 
-[First job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33003570857)
+[First job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33003570857) 23s
+[Second job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33003772659) 19s
+28% time decrease
