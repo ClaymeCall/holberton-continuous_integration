@@ -2,19 +2,18 @@ name: Docker Build Check
 
 on:
   push:
-  branches:
-    - docker_build
+    branches: [docker_build]
 
 jobs:
   Build-Image:
-  name: Build Docker Image
-  runs-on: ubuntu-latest
-  steps:
-    - name: Check out the repo
-      uses: actions/checkout@v6
+    name: Build Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v6
 
-    - name: Build Docker image
-      uses: docker/build-push-action@v7
-      with:
-        context: .
-        file: ./Dockerfile
+      - name: Build Docker image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
