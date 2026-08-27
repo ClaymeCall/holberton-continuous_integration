@@ -37,3 +37,5 @@ Those projects aim to practice using workflows and GitHub Actions.
 
 [Job link](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33065026679)
 
+### Tag it like you mean it
+[Job link](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33067436805)
