@@ -39,3 +39,8 @@ Those projects aim to practice using workflows and GitHub Actions.
 
 ### Tag it like you mean it
 [Job link](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33068236271)
+
+### Make the build fast
+[First job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33065729376) 58s
+[Second job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33068236271) 34s
+41% time decrease
