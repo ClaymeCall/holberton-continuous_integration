@@ -32,3 +32,8 @@ Those projects aim to practice using workflows and GitHub Actions.
 ### Build image in CI
 
 [Job link](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33052914515)
+
+### Publish to a registry
+
+[Job link](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33065026679)
+
