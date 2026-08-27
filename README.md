@@ -44,3 +44,6 @@ Those projects aim to practice using workflows and GitHub Actions.
 [First job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33065729376) 58s
 [Second job run](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33068236271) 34s
 41% time decrease
+
+### Scan before you ship
+[Link to interrupted deployment due to vulnerability](https://github.com/ClaymeCall/holberton-continuous_integration/actions/runs/33077017976/job/98534001686#step:4:252)
