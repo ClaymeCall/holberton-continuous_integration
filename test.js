@@ -14,5 +14,5 @@ if (!shouldPass) {
   process.exit(1);
 }
 
-console.log("All tests passed!");
+console.log("Test passed: shouldPass is true");
 process.exit(0);
