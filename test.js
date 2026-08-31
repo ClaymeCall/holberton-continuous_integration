@@ -1,6 +1,6 @@
 // Simple test file - change shouldPass to test pass/fail behavior
 // Set to true to pass, false to fail
-const shouldPass = true;
+const shouldPass = false;
 
 // Test that fails with Node version < 25
 const nodeVersion = parseInt(process.version.match(/^v(\d+)/)[1]);
